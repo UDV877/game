@@ -25,7 +25,7 @@ void Square::setleft(bool n)
 bool Square::getup()const
 {
 	return up;
-} 
+}
 bool Square::getdown()const
 {
 	return down;

@@ -1,14 +1,7 @@
 #include"player.h"
 #include<iostream>
 using namespace std;
-//Player::Player()
-//{
-//	locationX = 0;
-//	locationY = 0;
-//	direction = 'n';
-//	grade = 0;
-//	scores = 0;
-//}
+
 Player::Player(int x, int y, char dir)
 {
 	locationX = x;
@@ -37,8 +30,8 @@ void Player::setDirection(char dir)
 }
 void Player::setGrade(int i)
 {
-	grade+=i;
-//	scoreLasttime(1);
+	grade += i;
+	//	scoreLasttime(1);
 }
 void Player::scoreLasttime(bool n)
 {
@@ -70,7 +63,7 @@ void Player::setRecord(Player pp)
 	{
 		rRecord[this->getLocationX() - 1][this->getLocationY() - 1] = 1;
 	}
-	else if (pp.getDirection() == 'D') 
+	else if (pp.getDirection() == 'D')
 	{
 		dRecord[this->getLocationX() - 1][this->getLocationY() - 1] = 1;
 	}

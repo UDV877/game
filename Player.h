@@ -3,11 +3,10 @@
 class Player {
 private:
 	int locationX, locationY, grade;
-	int rRecord[4][4] , dRecord[4][4];
+	int rRecord[4][4], dRecord[4][4];
 	char direction;
-	bool scores ;
+	bool scores;
 public:
-//	Player();
 	Player(int, int, char);
 	void setLocationX(int);
 	void setLocationY(int);
@@ -21,6 +20,6 @@ public:
 	int getGrade()const;
 	bool getScores()const;
 	int getRecord()const;
-	void setRecord(Player );
+	void setRecord(Player);
 };
 #endif
