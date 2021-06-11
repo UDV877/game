@@ -45,3 +45,4 @@ bool Square::score()
 	}
 	else return false;
 }
+//
