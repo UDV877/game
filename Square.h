@@ -18,4 +18,3 @@ public:
 	bool score();
 };
 #endif
-//
